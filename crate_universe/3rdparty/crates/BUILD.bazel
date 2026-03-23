@@ -32,26 +32,26 @@ filegroup(
 
 # Workspace Member Dependencies
 alias(
-    name = "anyhow-1.0.98",
-    actual = "@cui__anyhow-1.0.98//:anyhow",
+    name = "anyhow-1.0.102",
+    actual = "@cui__anyhow-1.0.102//:anyhow",
     tags = ["manual"],
 )
 
 alias(
     name = "anyhow",
-    actual = "@cui__anyhow-1.0.98//:anyhow",
+    actual = "@cui__anyhow-1.0.102//:anyhow",
     tags = ["manual"],
 )
 
 alias(
-    name = "camino-1.1.9",
-    actual = "@cui__camino-1.1.9//:camino",
+    name = "camino-1.2.2",
+    actual = "@cui__camino-1.2.2//:camino",
     tags = ["manual"],
 )
 
 alias(
     name = "camino",
-    actual = "@cui__camino-1.1.9//:camino",
+    actual = "@cui__camino-1.2.2//:camino",
     tags = ["manual"],
 )
 
@@ -92,14 +92,14 @@ alias(
 )
 
 alias(
-    name = "cargo_toml-0.22.1",
-    actual = "@cui__cargo_toml-0.22.1//:cargo_toml",
+    name = "cargo_toml-0.22.3",
+    actual = "@cui__cargo_toml-0.22.3//:cargo_toml",
     tags = ["manual"],
 )
 
 alias(
     name = "cargo_toml",
-    actual = "@cui__cargo_toml-0.22.1//:cargo_toml",
+    actual = "@cui__cargo_toml-0.22.3//:cargo_toml",
     tags = ["manual"],
 )
 
@@ -116,38 +116,38 @@ alias(
 )
 
 alias(
-    name = "clap-4.5.37",
-    actual = "@cui__clap-4.5.37//:clap",
+    name = "clap-4.6.0",
+    actual = "@cui__clap-4.6.0//:clap",
     tags = ["manual"],
 )
 
 alias(
     name = "clap",
-    actual = "@cui__clap-4.5.37//:clap",
+    actual = "@cui__clap-4.6.0//:clap",
     tags = ["manual"],
 )
 
 alias(
-    name = "crates-index-3.7.0",
-    actual = "@cui__crates-index-3.7.0//:crates_index",
+    name = "crates-index-3.13.0",
+    actual = "@cui__crates-index-3.13.0//:crates_index",
     tags = ["manual"],
 )
 
 alias(
     name = "crates-index",
-    actual = "@cui__crates-index-3.7.0//:crates_index",
+    actual = "@cui__crates-index-3.13.0//:crates_index",
     tags = ["manual"],
 )
 
 alias(
-    name = "glob-0.3.2",
-    actual = "@cui__glob-0.3.2//:glob",
+    name = "glob-0.3.3",
+    actual = "@cui__glob-0.3.3//:glob",
     tags = ["manual"],
 )
 
 alias(
     name = "glob",
-    actual = "@cui__glob-0.3.2//:glob",
+    actual = "@cui__glob-0.3.3//:glob",
     tags = ["manual"],
 )
 
@@ -164,14 +164,14 @@ alias(
 )
 
 alias(
-    name = "indoc-2.0.6",
-    actual = "@cui__indoc-2.0.6//:indoc",
+    name = "indoc-2.0.7",
+    actual = "@cui__indoc-2.0.7//:indoc",
     tags = ["manual"],
 )
 
 alias(
     name = "indoc",
-    actual = "@cui__indoc-2.0.6//:indoc",
+    actual = "@cui__indoc-2.0.7//:indoc",
     tags = ["manual"],
 )
 
@@ -200,26 +200,26 @@ alias(
 )
 
 alias(
-    name = "normpath-1.3.0",
-    actual = "@cui__normpath-1.3.0//:normpath",
+    name = "normpath-1.5.0",
+    actual = "@cui__normpath-1.5.0//:normpath",
     tags = ["manual"],
 )
 
 alias(
     name = "normpath",
-    actual = "@cui__normpath-1.3.0//:normpath",
+    actual = "@cui__normpath-1.5.0//:normpath",
     tags = ["manual"],
 )
 
 alias(
-    name = "once_cell-1.21.3",
-    actual = "@cui__once_cell-1.21.3//:once_cell",
+    name = "once_cell-1.21.4",
+    actual = "@cui__once_cell-1.21.4//:once_cell",
     tags = ["manual"],
 )
 
 alias(
     name = "once_cell",
-    actual = "@cui__once_cell-1.21.3//:once_cell",
+    actual = "@cui__once_cell-1.21.4//:once_cell",
     tags = ["manual"],
 )
 
@@ -236,110 +236,110 @@ alias(
 )
 
 alias(
-    name = "regex-1.11.1",
-    actual = "@cui__regex-1.11.1//:regex",
+    name = "regex-1.12.3",
+    actual = "@cui__regex-1.12.3//:regex",
     tags = ["manual"],
 )
 
 alias(
     name = "regex",
-    actual = "@cui__regex-1.11.1//:regex",
+    actual = "@cui__regex-1.12.3//:regex",
     tags = ["manual"],
 )
 
 alias(
-    name = "semver-1.0.26",
-    actual = "@cui__semver-1.0.26//:semver",
+    name = "semver-1.0.27",
+    actual = "@cui__semver-1.0.27//:semver",
     tags = ["manual"],
 )
 
 alias(
     name = "semver",
-    actual = "@cui__semver-1.0.26//:semver",
+    actual = "@cui__semver-1.0.27//:semver",
     tags = ["manual"],
 )
 
 alias(
-    name = "serde-1.0.219",
-    actual = "@cui__serde-1.0.219//:serde",
+    name = "serde-1.0.228",
+    actual = "@cui__serde-1.0.228//:serde",
     tags = ["manual"],
 )
 
 alias(
     name = "serde",
-    actual = "@cui__serde-1.0.219//:serde",
+    actual = "@cui__serde-1.0.228//:serde",
     tags = ["manual"],
 )
 
 alias(
-    name = "serde_json-1.0.140",
-    actual = "@cui__serde_json-1.0.140//:serde_json",
+    name = "serde_json-1.0.149",
+    actual = "@cui__serde_json-1.0.149//:serde_json",
     tags = ["manual"],
 )
 
 alias(
     name = "serde_json",
-    actual = "@cui__serde_json-1.0.140//:serde_json",
+    actual = "@cui__serde_json-1.0.149//:serde_json",
     tags = ["manual"],
 )
 
 alias(
-    name = "serde_starlark-0.1.17",
-    actual = "@cui__serde_starlark-0.1.17//:serde_starlark",
+    name = "serde_starlark-0.1.19",
+    actual = "@cui__serde_starlark-0.1.19//:serde_starlark",
     tags = ["manual"],
 )
 
 alias(
     name = "serde_starlark",
-    actual = "@cui__serde_starlark-0.1.17//:serde_starlark",
+    actual = "@cui__serde_starlark-0.1.19//:serde_starlark",
     tags = ["manual"],
 )
 
 alias(
-    name = "sha2-0.10.8",
-    actual = "@cui__sha2-0.10.8//:sha2",
+    name = "sha2-0.10.9",
+    actual = "@cui__sha2-0.10.9//:sha2",
     tags = ["manual"],
 )
 
 alias(
     name = "sha2",
-    actual = "@cui__sha2-0.10.8//:sha2",
+    actual = "@cui__sha2-0.10.9//:sha2",
     tags = ["manual"],
 )
 
 alias(
-    name = "spdx-0.10.8",
-    actual = "@cui__spdx-0.10.8//:spdx",
+    name = "spdx-0.10.9",
+    actual = "@cui__spdx-0.10.9//:spdx",
     tags = ["manual"],
 )
 
 alias(
     name = "spdx",
-    actual = "@cui__spdx-0.10.8//:spdx",
+    actual = "@cui__spdx-0.10.9//:spdx",
     tags = ["manual"],
 )
 
 alias(
-    name = "tempfile-3.19.1",
-    actual = "@cui__tempfile-3.19.1//:tempfile",
+    name = "tempfile-3.27.0",
+    actual = "@cui__tempfile-3.27.0//:tempfile",
     tags = ["manual"],
 )
 
 alias(
     name = "tempfile",
-    actual = "@cui__tempfile-3.19.1//:tempfile",
+    actual = "@cui__tempfile-3.27.0//:tempfile",
     tags = ["manual"],
 )
 
 alias(
-    name = "tera-1.20.0",
-    actual = "@cui__tera-1.20.0//:tera",
+    name = "tera-1.20.1",
+    actual = "@cui__tera-1.20.1//:tera",
     tags = ["manual"],
 )
 
 alias(
     name = "tera",
-    actual = "@cui__tera-1.20.0//:tera",
+    actual = "@cui__tera-1.20.1//:tera",
     tags = ["manual"],
 )
 
@@ -356,50 +356,50 @@ alias(
 )
 
 alias(
-    name = "toml-0.8.21",
-    actual = "@cui__toml-0.8.21//:toml",
+    name = "toml-0.9.12+spec-1.1.0",
+    actual = "@cui__toml-0.9.12-spec-1.1.0//:toml",
     tags = ["manual"],
 )
 
 alias(
     name = "toml",
-    actual = "@cui__toml-0.8.21//:toml",
+    actual = "@cui__toml-0.9.12-spec-1.1.0//:toml",
     tags = ["manual"],
 )
 
 alias(
-    name = "tracing-0.1.41",
-    actual = "@cui__tracing-0.1.41//:tracing",
+    name = "tracing-0.1.44",
+    actual = "@cui__tracing-0.1.44//:tracing",
     tags = ["manual"],
 )
 
 alias(
     name = "tracing",
-    actual = "@cui__tracing-0.1.41//:tracing",
+    actual = "@cui__tracing-0.1.44//:tracing",
     tags = ["manual"],
 )
 
 alias(
-    name = "tracing-subscriber-0.3.19",
-    actual = "@cui__tracing-subscriber-0.3.19//:tracing_subscriber",
+    name = "tracing-subscriber-0.3.23",
+    actual = "@cui__tracing-subscriber-0.3.23//:tracing_subscriber",
     tags = ["manual"],
 )
 
 alias(
     name = "tracing-subscriber",
-    actual = "@cui__tracing-subscriber-0.3.19//:tracing_subscriber",
+    actual = "@cui__tracing-subscriber-0.3.23//:tracing_subscriber",
     tags = ["manual"],
 )
 
 alias(
-    name = "url-2.5.4",
-    actual = "@cui__url-2.5.4//:url",
+    name = "url-2.5.8",
+    actual = "@cui__url-2.5.8//:url",
     tags = ["manual"],
 )
 
 alias(
     name = "url",
-    actual = "@cui__url-2.5.4//:url",
+    actual = "@cui__url-2.5.8//:url",
     tags = ["manual"],
 )
 

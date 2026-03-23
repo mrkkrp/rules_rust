@@ -104,6 +104,6 @@ rust_library(
     }),
     version = "0.14.0",
     deps = [
-        "@cui__either-1.9.0//:either",
+        "@cui__either-1.15.0//:either",
     ],
 )

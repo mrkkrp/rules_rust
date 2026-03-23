@@ -99,6 +99,6 @@ rust_library(
     }),
     version = "0.1.7",
     deps = [
-        "@cui__lazy_static-1.4.0//:lazy_static",
+        "@cui__lazy_static-1.5.0//:lazy_static",
     ],
 )

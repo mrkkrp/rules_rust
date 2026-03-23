@@ -102,13 +102,13 @@ rust_library(
         "@cui__same-file-1.0.6//:same_file",
     ] + select({
         "@rules_rust//rust/platform:aarch64-pc-windows-msvc": [
-            "@cui__winapi-util-0.1.5//:winapi_util",  # cfg(windows)
+            "@cui__winapi-util-0.1.11//:winapi_util",  # cfg(windows)
         ],
         "@rules_rust//rust/platform:i686-pc-windows-msvc": [
-            "@cui__winapi-util-0.1.5//:winapi_util",  # cfg(windows)
+            "@cui__winapi-util-0.1.11//:winapi_util",  # cfg(windows)
         ],
         "@rules_rust//rust/platform:x86_64-pc-windows-msvc": [
-            "@cui__winapi-util-0.1.5//:winapi_util",  # cfg(windows)
+            "@cui__winapi-util-0.1.11//:winapi_util",  # cfg(windows)
         ],
         "//conditions:default": [],
     }),
